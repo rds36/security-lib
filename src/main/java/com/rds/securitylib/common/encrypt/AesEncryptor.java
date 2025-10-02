@@ -1,4 +1,4 @@
-package com.rds.securitylib.encrypt;
+package com.rds.securitylib.common.encrypt;
 
 public interface AesEncryptor {
     byte[] encrypt(byte[] plainText);

@@ -1,12 +1,10 @@
-package com.rds.securitylib.encrypt;
+package com.rds.securitylib.common.encrypt;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
-import java.util.Base64;
 
 public class AesGcmEncryptor implements AesEncryptor {
     private static final String ALGORITHM = "AES/GCM/NoPadding";
